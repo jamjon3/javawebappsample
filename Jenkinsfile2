@@ -15,7 +15,7 @@ node {
   }
   
   stage('deploy') {
-    def webAppResourceGroup = '<myResourceGroup>'
+    def webAppResourceGroup = 'azsrvprincipal'
     def webAppName = '<app_name>'
     def acrName = '<myRegistry>'
     def imageName = 'calculator'
